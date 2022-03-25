@@ -4,9 +4,10 @@
  * @Author: simpletoyou
  * @Date: 2022-01-13 15:01:09
  * @LastEditors: simpletoyou
- * @LastEditTime: 2022-01-13 16:07:53
+ * @LastEditTime: 2022-03-25 11:10:06
 -->
 <template>
+<!-- 需要先下载相关依赖 npm i svgo svg-sprite-loader -->
   <svg :class="svgClass" aria-hidden="true" :width="swidth" :height="sheight">
     <use :xlink:href="iconName" />
   </svg>
